@@ -1,0 +1,57 @@
+.centered {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+#distractor {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+   	right: 50%;
+    margin-right: -50%;
+    transform: translate(0%, -50%);
+    width: 150px;
+    text-align: right;
+    /*background-color: #00FF00;*/
+}
+
+#textDistractor {
+	margin: 0;
+    /*background: yellow;*/
+    position: absolute;
+    top: 50%;
+   	right: 50%;
+    margin-right: -50%;
+    transform: translate(0%, -50%);
+}
+
+#resp {
+	background-color: lightgrey;
+	border: 1px black solid;
+	margin: 0;
+    /*background: yellow;*/
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 35px;
+    transform: translate(-50%, 0%);
+}
+
+body {
+    background-color: lightgrey;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+div.container4 p {
+    margin: 0;
+    /*background: yellow;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
